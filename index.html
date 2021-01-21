@@ -12,7 +12,7 @@
     <title>Fizu.hu | Fooldal</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand fizu" href="#">fizu.hu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -34,7 +34,7 @@
                     <a class="nav-link" href="#">Rolunk</a>
                 </li>
                 <li class="nav-item dropdown me-5">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle me-5" href="#" id="navbarDropdownMenuLink" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">Profil
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -48,18 +48,36 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid bg-light jumboKont">
+<div class="container-fluid bg-light jumboKont mb-5">
     <div class="container jumbo pt-5">
         <h1>Mennyit keresnek, ha...</h1>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, totam!</p>
         <a href="#" class="btn btn-green btn-lg" role="button" aria-disabled="true">Tovabb a kerdoivekre!</a>
     </div>
 </div>
+<main>
+    <section class="container py-5">
+        <div class="row">
+            <div class=" col-12 col-lg-4 text-center">
+                <img src="img/graf1.png" alt="" width="150" class="mb-4 img-fluid">
+                <p>A diplomasok 268%-kal tobbet keresnek a diplomaval nem rendelkezoknel</p>
+            </div>
+            <div class=" col-12 col-lg-4 text-center">
+                <img src="img/graf2.png" alt="" width="150" class="mb-4 img-fluid">
+                <p>Az IT szakmaban dolgozok 695%-kal keresnek tobbet az atlagnal</p>
+            </div>
+            <div class=" col-12 col-lg-4 text-center">
+                <img src="img/graf3.png" alt="" width="150" class="mb-4 img-fluid">
+                <p>A Budapesten elok 310% -kal keresnek tobbet videken elo tarsaikhoz kepest</p>
+            </div>
+        </div>
+    </section>
+</main>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-
 
 </body>
 </html>

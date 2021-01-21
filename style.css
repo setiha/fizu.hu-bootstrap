@@ -60,3 +60,14 @@ a.btn-green:hover{
 .navbar-dark .navbar-nav .nav-item .nav-link:hover{
     color: purple;
 }
+
+.dropdown .dropdown-item:hover{
+    color: #ffff;
+    background-color: purple;
+}
+
+@media (max-width: 768px)  {
+.jumbo{
+    height: 350px;
+}
+}
