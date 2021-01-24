@@ -71,6 +71,19 @@ a.btn-green:hover {
 .font-lg{
     font-size: 1.4rem;
 }
+
+.bg-green{
+    background-color: rgba(171, 218, 10, 0.2);
+}
+.home-card{
+    box-shadow: 0px 6px 10px rgba(0,0,0, 0.19),0px 6px 6px rgba(0,0,0, 0.23)
+}
+.btn.btn-outline-success{
+    border: 2px solid;
+    font-weight: bold;
+}
+
+
 @media (max-width: 768px) {
     .jumbo {
         height: 350px;
