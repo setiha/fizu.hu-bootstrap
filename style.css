@@ -22,6 +22,7 @@
     text-transform: uppercase;
     background-color: #ABDA0A;
 }
+
 .btn-green:hover {
     background-color: #CEFF25;
 }
@@ -31,43 +32,47 @@ a.btn-green {
     color: white;
 }
 
-a.btn-green:hover{
+a.btn-green:hover {
     color: purple;
 }
 
-.fizu{
+.fizu {
     font-family: 'Galindo', cursive;
     font-size: 3rem;
     color: #ffffff;
 }
-.dropdown .dropdown-menu{
+
+.dropdown .dropdown-menu {
     background-color: #343A40;
 
 }
-.navbar-dark .navbar-nav .nav-item .nav-link{
-    color:#fff;
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
     font-size: 1.2rem;
 }
 
-.dropdown .dropdown-item{
+.dropdown .dropdown-item {
     color: #fff;
 }
 
-.dropdown-divider{
-    color:#fff;
+.dropdown-divider {
+    color: #fff;
 }
 
-.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
     color: purple;
 }
 
-.dropdown .dropdown-item:hover{
+.dropdown .dropdown-item:hover {
     color: #ffff;
     background-color: purple;
 }
-
-@media (max-width: 768px)  {
-.jumbo{
-    height: 350px;
+.font-lg{
+    font-size: 1.4rem;
 }
+@media (max-width: 768px) {
+    .jumbo {
+        height: 350px;
+    }
 }
