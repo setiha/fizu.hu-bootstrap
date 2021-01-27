@@ -82,8 +82,43 @@ a.btn-green:hover {
     border: 2px solid;
     font-weight: bold;
 }
+   footer ul li a{
+    text-decoration: none;
+       color: #fff;
+}
+  div a {
+      text-decoration: none;
+  }
 
 
+footer ul li a:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+.line{
+   font-size: 1.5rem;
+    margin: 0 0 0 1em;
+    padding:0;
+    text-shadow: 1px 1px 1px #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.line:before, .line:after{
+    content: "";
+    position: absolute;
+    top:50%;
+    margin-left: -999em;
+    height: 2px;
+    width: 998em;
+    border-top: 1px solid #fff;
+}
+.line:after{
+    left:auto;
+    width: 999em;
+    margin: 0 0 0 1em;
+}
 @media (max-width: 768px) {
     .jumbo {
         height: 350px;
