@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499a3500-7e9e-4799-bb7a-6986f148781c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rolunk.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rolunk.html" afterPath="$PROJECT_DIR$/rolunk.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,10 +35,12 @@
       <file leaf-file-name="rolunk.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rolunk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state relative-caret-position="181">
+              <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -242,7 +242,7 @@
       <workItem from="1611560879700" duration="5409000" />
       <workItem from="1611644993611" duration="4681000" />
       <workItem from="1611734929297" duration="4465000" />
-      <workItem from="1611820422619" duration="846000" />
+      <workItem from="1611820422619" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="Origin">
       <created>1610996113625</created>
@@ -300,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1611735852461</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rolunk pages -jumbotron + section(text with image), amiben iszunk">
+      <created>1611821338132</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611821338132</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44844000" />
+    <option name="totallyTimeSpent" value="47526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="672" y="0" width="723" height="735" extended-state="0" />
@@ -342,7 +349,8 @@
     <MESSAGE value="new sections card with list and button, new div with p tags and H4, embed video" />
     <MESSAGE value="carousel ready implemented" />
     <MESSAGE value="footer ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer ready" />
+    <MESSAGE value="rolunk pages -jumbotron + section(text with image), amiben iszunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="rolunk pages -jumbotron + section(text with image), amiben iszunk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -377,6 +385,8 @@
           <caret line="63" column="337" lean-forward="false" selection-start-line="63" selection-start-column="337" selection-end-line="63" selection-end-column="337" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -587,10 +597,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rolunk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="181">
+          <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
