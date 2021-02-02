@@ -151,6 +151,16 @@ div .btn-facebook
     color: #fff;
     border: solid  #263961;
 }
+div .btn-facebook:link, div .btn-facebook:visited{
+    color: #fff;
+}
+
+div .btn-facebook:hover{
+    background-color: #263961;
+}
+div .btn-facebook:active{
+    background-color: #263961;
+}
 @media (max-width: 768px) {
     .jumbo {
         height: 350px;
