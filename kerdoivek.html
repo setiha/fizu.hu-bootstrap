@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="lib/bootstrap/bootstrap.css" rel="stylesheet"/>
+
+    <title>Fizu.hu | Kerdoivek</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fizu" href="#">fizu.hu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Fooldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kedvenc-stat.html">Kedvenc statisztikaink</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="kerdoivek.html">Kerdoivek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rolunk.html">Rolunk</a>
+                </li>
+                <li class="nav-item dropdown me-5">
+                    <a class="nav-link dropdown-toggle me-5" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">Profil
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Profilom</a></li>
+                        <li><a class="dropdown-item" href="#">Fizu terkep</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Kijelentkezes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid bg-light jumboKont mb-5">
+    <div class="container jumbo pt-5">
+        <h1>Mennyit keresnek, ha...</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, totam!</p>
+        <a href="#" class="btn btn-green btn-lg" role="button" aria-disabled="true">Tovabb a kerdoivekre!</a>
+    </div>
+</div>
+
+<div class="container py-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home"
+               aria-selected="true">Rovid kerdoiv</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+               aria-selected="false">Hosszu kerdoiv</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+            <div class="row py-5 mx-4">
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Hany eves</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">16</option>
+                        <option value="2">18</option>
+                        <option value="3">22</option>
+                        <option value="4">25</option>
+                        <option value="5">30</option>
+                        <option value="6">40</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik megyeben vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Hargita</option>
+                        <option value="2">Kovaszna</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Maros</option>
+                        <option value="5">Szilagy</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik telepulesen vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Szekelyudvarhely</option>
+                        <option value="2">Barot</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Szovata</option>
+                        <option value="5">Zilah</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Mennyi a havi keresete?</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <div class="form-row" aria-label="Default select example">
+                        <div class="col-md-6"><input class="form-control" type="number" id="validationDefault"
+                                                     placeholder=""></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik telepulesen vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Szekelyudvarhely</option>
+                        <option value="2">Barot</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Szovata</option>
+                        <option value="5">Zilah</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik telepulesen vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Szekelyudvarhely</option>
+                        <option value="2">Barot</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Szovata</option>
+                        <option value="5">Zilah</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik telepulesen vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Szekelyudvarhely</option>
+                        <option value="2">Barot</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Szovata</option>
+                        <option value="5">Zilah</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Melyik telepulesen vegzi a munkajat</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3  mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Valassz</option>
+                        <option value="1">Szekelyudvarhely</option>
+                        <option value="2">Barot</option>
+                        <option value="3">Brasso</option>
+                        <option value="4">Szovata</option>
+                        <option value="5">Zilah</option>
+                        <option value="6">Szeben</option>
+                    </select>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <button class="btn btn-outline-success">Elkuldom</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row py-5 mx-4">
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio3">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio4">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio5"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio5">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio6"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio6">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio7"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio7">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio8"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio8">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio9"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio9">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions10" id="inlineRadio10"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio10">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-7 py-md-3">
+                    <p>Neme</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-3 mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions11" id="inlineRadio11"
+                               value="option1">
+                        <label class="form-check-label" for="inlineRadio11">Ferfi</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions12" id="inlineRadio12"
+                               value="option2">
+                        <label class="form-check-label" for="inlineRadio12">No</label>
+                    </div>
+
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <button class="btn btn-outline-success">Elkuldom</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light pt-5">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12 col-lg-4 text-center my-auto">
+                    <a href="index.html" class="fizu">fizu.hu</a>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <ul class="list-unstyled">
+                        <li class="py-2"><a href="#">Hirlevel feliratkozas</a></li>
+                        <li class="py-2"><a href="index.html">Fooldal</a></li>
+                        <li class="py-2"><a href="kedvenc-stat.html">Kedvenc statisztikaink</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <ul class="list-unstyled">
+                        <li class="py-2"><a href="#">Kerdoiv</a></li>
+                        <li class="py-2"><a href="rolunk.html">Rolunk</a></li>
+                        <li class="py-2"><a href="#">Fizu terkep</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <h1 class="line mb-5">Baratkozzunk</h1>
+            <div class="text-center">
+                <a href="https://facebook.com" class="px-2"><img src="img/facebook.svg" alt="" height="40"></a>
+                <a href="https://twitter.com" class="px-2"><img src="img/twitter.svg" alt="" height="40"></a>
+                <a href="https://google.com" class="px-2"><img src="img/google.svg" alt="" height="50"></a>
+                <a href="https://viber.com" class="px-2"><img src="img/viber.svg" alt="" height="40"></a>
+            </div>
+        </div>
+        <div>
+            <div class="row pt-4">
+                <div class="col-12 text-center">
+                    <p>fizu.hu 2018 tol</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/bootstrap/bootstrap.js"></script>
+</body>
+</html>

@@ -17,7 +17,8 @@
     background-attachment: fixed;
     background-size: cover;
 }
-body{
+
+body {
     overflow: -moz-scrollbars-vertical;
     overflow-x: hidden;
 }
@@ -144,23 +145,32 @@ footer ul li a:hover {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2),
     0 6px 20px 0 rgba(0, 0, 0, .19);
 }
-div .btn-facebook
-{
+
+div .btn-facebook {
     background-color: #385998;
     border-radius: 1px;
     color: #fff;
-    border: solid  #263961;
+    border: solid #263961;
 }
-div .btn-facebook:link, div .btn-facebook:visited{
+
+div .btn-facebook:link, div .btn-facebook:visited {
     color: #fff;
 }
 
-div .btn-facebook:hover{
+div .btn-facebook:hover {
     background-color: #263961;
 }
-div .btn-facebook:active{
+
+div .btn-facebook:active {
     background-color: #263961;
 }
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 768px) {
     .jumbo {
         height: 350px;
@@ -178,45 +188,53 @@ div .btn-facebook:active{
     .jumbo {
         height: 300px;
     }
+
     a.btn-green {
         font-size: 14px;
     }
-    .jumbo p{
+
+    .jumbo p {
         font-size: 16px;
     }
-    .jumbo h1{
+
+    .jumbo h1 {
         font-size: 18px;
     }
 }
-
 
 @media (max-width: 250px) {
     .jumbo {
         height: 250px;
     }
+
     a.btn-green {
         font-size: 10px;
     }
-    .jumbo p{
+
+    .jumbo p {
         font-size: 12px;
     }
-    .jumbo h1{
+
+    .jumbo h1 {
         font-size: 14px;
     }
 }
 
 @media (max-width: 200px) {
 
-    .jumbo{
+    .jumbo {
         height: 250px;
     }
+
     a.btn-green {
         font-size: 8px;
     }
-    .jumbo p{
+
+    .jumbo p {
         font-size: 10px;
     }
-    .jumbo h1{
+
+    .jumbo h1 {
         font-size: 12px;
     }
 }
