@@ -107,7 +107,7 @@ footer ul li a:hover {
 
 .line {
     font-size: 1.5rem;
-    margin: 0 0 0 1em;
+    margin: 0 0 1em;
     padding: 0;
     text-shadow: 1px 1px 1px #000;
     position: relative;
@@ -165,6 +165,115 @@ div .btn-facebook:active {
     background-color: #263961;
 }
 
+.bejelentkezes {
+    background-image: url("img/login-bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.row .login-card {
+    background-color: rgba(42, 47, 51, .8);
+    color: white;
+}
+
+.row .login-card a {
+    color: #eff0f7;
+}
+
+.row .login-card-header {
+    background-color: rgba(42, 47, 51, .8);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #eff0f7;
+}
+
+.row .login-card .form-control {
+    background-color: rgba(42, 47, 51, .7);
+    border-color: transparent;
+    color: #eff0f7;;
+}
+
+.row .login-card .form-control:focus {
+    background-color: rgba(42, 47, 51, .5);
+    border-color: #3384AA;
+    outline: none;
+    box-shadow: none;
+    color: #eff0f7;
+
+}
+
+.row .login-card form input::placeholder {
+    color: #d6d7de;
+    opacity: .8;
+}
+
+button.login-Btn-facebook {
+    background: linear-gradient(#4c69ba, #3b55a0);
+    text-shadow: 0 -1px 0 #354c8c;
+
+}
+
+button.login-Btn-facebook:hover,
+button.login-Btn-facebook:focus {
+    background: linear-gradient(#5b7bd5, #4864b1);
+    color: white;
+}
+
+button.loginBtn {
+    color: white;
+    font-size: 0.8rem;
+}
+
+button.login-Btn-google {
+    background: linear-gradient(#dd4b39, #a7372b);
+    text-shadow: 0 -1px 0 #dd4b39;
+}
+
+button.login-Btn-google:hover,
+button.login-Btn-google:focus {
+    background: linear-gradient(#e74537, #cd4435);
+    color: white;
+}
+
+button.btn-login {
+    background-color: #298e62;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+button.btn-login:hover {
+    background: #428e81;
+    color: white;
+}
+
+.errorBackground {
+    background: linear-gradient(rgba(43, 45, 66, 0.4), rgba(43, 45, 66, 0.6)), url("img/error-page.jpeg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.content{
+    padding-top: 118px;
+    color: #cdd4de;
+}
+
+.content h1{
+    font-weight: 900;
+    font-size: 8.5rem;
+    opacity: 0.6;
+}
+.content h2{
+    font-weight: 600;
+    font-size: 2.2rem;
+    opacity: 0.9;
+}
+
 @media (min-width: 1200px) {
     html {
         font-size: 18px;
@@ -182,6 +291,19 @@ div .btn-facebook:active {
         height: 450px;
     }
 
+}
+
+@media (max-width: 350px) {
+    button.btn-login {
+        letter-spacing: 0;
+        font-weight: inherit;
+        font-size: 0.8rem;
+        padding: 1px;
+    }
+
+    div.card-footer {
+        padding: 0;
+    }
 }
 
 @media (max-width: 300px) {
@@ -220,6 +342,30 @@ div .btn-facebook:active {
     }
 }
 
+@media(max-width: 225px){
+    button.btn-login {
+        letter-spacing: 0;
+        font-weight: inherit;
+        font-size: 0.5rem;
+    }
+
+    div.card-footer {
+        padding: 0;
+    }
+
+    button.loginBtn {
+        letter-spacing:0;
+        font-weight: inherit;
+        font-size: 0.5rem;
+    }
+    form {
+        font-size: 0.5rem;
+    }
+    div.card-body{
+        padding:0;
+        margin:0;
+    }
+}
 @media (max-width: 200px) {
 
     .jumbo {
@@ -237,4 +383,6 @@ div .btn-facebook:active {
     .jumbo h1 {
         font-size: 12px;
     }
+
+
 }
